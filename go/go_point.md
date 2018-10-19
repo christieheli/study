@@ -35,4 +35,4 @@ func main() {
 ```
 运行会报：panic: linkList is nil
 
-运行 29行代码就正常
+运行 l = l.create()代码就正常
