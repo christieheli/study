@@ -3,6 +3,7 @@ Go functions may be closures. A closure is a function value that references vari
 
 For example, the adder function returns a closure. Each closure is bound to its own sum variable.
 
+```go
 package main
 
 import "fmt"
@@ -24,3 +25,4 @@ func main() {
 		)
 	}
 }
+```
